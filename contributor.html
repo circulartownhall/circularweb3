@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a contributor for circular</title>
+    <link rel="stylesheet" href="../css/contributor.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>Become a Contributor</h1>
+        <p>We are happy to welcome people who are eager to be part of our innovation.</p>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../comm.html">Join</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+    <div class="memcon">
+        <h2>Contributor Application Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required/>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" email="email" required/>
+            <label for="interest">Area Of Interest</label>
+            <select id="interest" name="interest" required>
+                <option value="">--Select an Option</option>
+                <option value="development">Blockchain Development</option>
+                <option value="Content">Content Creation</option>
+                <option value="Community">Community Building</option>
+                <option value="Design">UI/UX Design</option>
+                <option value="research">Healthcare Research</option>
+                <option value="other">others</option>
+            </select>
+            <label for="message">Tell us why you want to contribute</label>
+            <textarea id="message" name="message" placeholder="Share your thoughts..." required></textarea>
+            <button type="button" class="js-submit">Submit Application</button>
+        </form>
+        <p id="formessage" class="hiddenmessage"> </p>
+    </div>
+    </main>
+    <script src="../js/contributor.js"></script>
+    <footer>
+        &Copy; 2025 Circular Protocol. All rights reserved
+    </footer>
+    </body>
+    
+</html>
